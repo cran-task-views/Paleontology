@@ -3,7 +3,7 @@ name: Paleontology
 topic: Paleontology
 maintainer: William Gearty, Lewis A. Jones, Erin Dillon, Pedro Godoy, Harriet Drage, Christopher Dean, Bruna Farina
 email: willgearty@gmail.com
-version: 2024-10-04
+version: 2024-11-25
 source: https://github.com/cran-task-views/Paleontology/
 ---
 
@@ -13,7 +13,7 @@ Computational Paleontology is an emerging field. Paleontologists are increasingl
 
 We have assembled this task view to bring together R packages that are specifically geared towards acquiring, cleaning, visualizing, and/or analyzing various kinds of paleontological and paleontology-adjacent data. We use this venue to showcase the wide variety of R packages available across the paleosciences and to provide a brief overview of each package for a broad audience of R users.
 
-If you have any questions, feel free to reach out to the task view maintainers or the maintainers of specific packages. Questions may also be directed to the [palaeoverse google group](https://groups.google.com/g/palaeoverse) or the [paleonet](https://paleonet.org/) mailing list.
+If you have any questions, feel free to reach out to the task view maintainers via e-mail or by opening a GitHub issue in the repository (see link above). General questions may also be directed to the [palaeoverse google group](https://groups.google.com/g/palaeoverse) or the [paleonet](https://paleonet.org/) mailing list. Technical questions about a specific package should be directed to the maintainer of that package.
 
 ## Scope
 
@@ -117,10 +117,10 @@ Also see the `r view("TimeSeries")` task view for broader details about conducti
 ### Analyzing stratigraphic and sedimentological data
 
 - `r pkg("admtools")` can be used to estimate age-depth models from stratigraphic and sedimentological data.
-- `r pkg("clam")` can be used to perform 'classical' age-depth modelling of dated sediment deposits.
-- `r pkg("rbacon")` can be used to perform age-depth modelling using Bayesian statistics to reconstruct accumulation histories for deposits, through combining radiocarbon and other dates with prior information on accumulation rates and their variability.
-- `r pkg("Bchron")` has functions for quick calibration of radiocarbon dates under various calibration curves and can be used to perform Bayesian age-depth modelling.
-- `r github("nickmckay/GeoChronR")` has functions to model, analyze, and visualize age-uncertain data and offers access to commonly-used age-modelling tools such as `r pkg("rbacon")` and `r pkg("BChron")`.
+- `r pkg("clam")` can be used to perform 'classical' age-depth modeling of dated sediment deposits.
+- `r pkg("rbacon")` can be used to perform age-depth modeling using Bayesian statistics to reconstruct accumulation histories for deposits, through combining radiocarbon and other dates with prior information on accumulation rates and their variability.
+- `r pkg("Bchron")` has functions for quick calibration of radiocarbon dates under various calibration curves and can be used to perform Bayesian age-depth modeling.
+- `r github("nickmckay/GeoChronR")` has functions to model, analyze, and visualize age-uncertain data and offers access to commonly-used age-modeling tools such as `r pkg("rbacon")` and `r pkg("BChron")`.
 - `r pkg("isogeochem")` can be used to quickly calculate isotope fractionation factors and apply paleothermometry equations.
 - `r pkg("DAIME")` can be used to model the effects of changing deposition rates on geological data and rates.
 
@@ -134,14 +134,14 @@ Also see the `r view("TimeSeries")` task view for broader details about conducti
 
 ### Acquiring and manipulating paleoclimate reconstruction data
 
-- `r pkg("rpaleoclim")` can fetch paleoclimate data from [PaleoClim](http://www.paleoclim.org/), high resolution paleoclimate surfaces covering the whole globe. This includes data on surface temperature, precipitation and the standard bioclimatic variables commonly used in ecological modelling, derived from the HadCM3 general circulation model and downscaled to a spatial resolution of up to 2.5 minutes.
+- `r pkg("rpaleoclim")` can fetch paleoclimate data from [PaleoClim](http://www.paleoclim.org/), high resolution paleoclimate surfaces covering the whole globe. This includes data on surface temperature, precipitation and the standard bioclimatic variables commonly used in ecological modeling, derived from the HadCM3 general circulation model and downscaled to a spatial resolution of up to 2.5 minutes.
 - `r pkg("pastclim")` has methods to easily access, manipulate, and use paleoclimate reconstructions.
 
-### Reconstructing and modelling paleoclimate
+### Reconstructing and modeling paleoclimate
 
 - `r github("mchevalier2/crestr")` can be used to create probabilistic reconstructions of past climate change from fossil assemblage data.
 - `r github("rsh249/cRacle")` can be used to perform the Climate Reconstruction Analysis using Coexistence Likelihood Estimation (CRACLE) method to estimate climate and paleoclimate from vegetation using large repositories of biodiversity data.
-- `r pkg("sedproxy")` can be used to conduct forward modelling of sediment archived climate proxy records based on hypothesized "true" past climate (e.g., climate model output), sedimentation, and sampling.
+- `r pkg("sedproxy")` can be used to conduct forward modeling of sediment archived climate proxy records based on hypothesized "true" past climate (e.g., climate model output), sedimentation, and sampling.
 
 ## References
 
