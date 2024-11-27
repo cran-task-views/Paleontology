@@ -73,6 +73,10 @@ Users may also find packages in the `r view("Environmetrics")` task view useful 
 
 Also see the `r view("Phylogenetics")` task view for details about studying discrete and continuous morphological evolution in a phylogenetic context.
 
+### Paleoecological simulations
+
+- `r pkg("paleoAM")` provides functions for simulating fossil assemblages with abundance models based on environmental gradients, sedimentary histories, and sampling histories.
+
 ## Paleobiogeography and biodiversity
 
 - `r github("josteist/Compadre")` can be used to estimate rates of speciation/origination, extinction, and sampling using Bayesian capture-mark-recapture techniques.
