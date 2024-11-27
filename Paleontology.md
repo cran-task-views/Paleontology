@@ -3,7 +3,7 @@ name: Paleontology
 topic: Paleontology
 maintainer: William Gearty, Lewis A. Jones, Erin Dillon, Pedro Godoy, Harriet Drage, Christopher Dean, Bruna Farina
 email: willgearty@gmail.com
-version: 2024-11-25
+version: 2024-11-27
 source: https://github.com/cran-task-views/Paleontology/
 ---
 
