@@ -120,7 +120,7 @@ Also see the `r view("TimeSeries")` task view for broader details about conducti
 - `r pkg("clam")` can be used to perform 'classical' age-depth modeling of dated sediment deposits.
 - `r pkg("rbacon")` can be used to perform age-depth modeling using Bayesian statistics to reconstruct accumulation histories for deposits, through combining radiocarbon and other dates with prior information on accumulation rates and their variability.
 - `r pkg("Bchron")` has functions for quick calibration of radiocarbon dates under various calibration curves and can be used to perform Bayesian age-depth modeling.
-- `r github("nickmckay/GeoChronR")` has functions to model, analyze, and visualize age-uncertain data and offers access to commonly-used age-modeling tools such as `r pkg("rbacon")` and `r pkg("BChron")`.
+- `r github("nickmckay/GeoChronR")` has functions to model, analyze, and visualize age-uncertain data and offers access to commonly-used age-modeling tools such as `r pkg("rbacon")` and `r pkg("Bchron")`.
 - `r pkg("isogeochem")` can be used to quickly calculate isotope fractionation factors and apply paleothermometry equations.
 - `r pkg("DAIME")` can be used to model the effects of changing deposition rates on geological data and rates.
 
