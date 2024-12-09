@@ -1,0 +1,25 @@
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - '.github/workflows/validate-ctv.yml'
+      - 'Paleontology.md'
+  pull_request:
+    branches:
+      - main
+      - master
+    paths:
+      - '.github/workflows/validate-ctv.yml'
+      - 'Paleontology.md'
+  schedule:
+    - cron: '30 5 1 * *'
+
+name: Validate task view
+
+jobs:
+  validate-ctv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: cran-task-views/ctv/validate-ctv@main
