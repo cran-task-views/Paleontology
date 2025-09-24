@@ -13,8 +13,6 @@ on:
     paths:
       - '.github/workflows/validate-ctv.yml'
       - 'Paleontology.md'
-  schedule:
-    - cron: '30 5 1 * *'
 
 name: Validate task view
 
