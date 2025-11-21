@@ -95,6 +95,8 @@ Users may also find packages in the `r view("Spatial")` task view useful for ana
 - `r pkg("paleotree")` provides tools for transforming, a posteriori time-scaling, and modifying phylogenies containing extinct lineages.
 - `r pkg("FossilSim")` can be used to simulate fossil occurrence data on phylogenetic trees under mechanistic models of speciation, fossil preservation, and fossil recovery. Quick simulations can be conducted in a graphical user interface with `r pkg("FossilSimShiny")`.
 - `r pkg("paleobuddy")` can be used to simulate phylogenetic trees and fossil records with custom speciation, extinction, and fossil sampling rates.
+- `r pkg("TreeSearch")` facilitates parsimony analysis of morphological data, with a correction for inapplicable character states. It also includes a graphical user interface for reconstructing ancestral states and visualizing phylogenetic results.
+- `r pkg("Rogue")` identifies taxa whose position on a tree is uncertain, improving the resolution of consenus trees that contain incomplete fossil data.
 - `r github("rachelwarnock/fbdR")` has functions for estimating speciation and extinction rates from phylogenetic trees and fossil occurrence data.
 - `r github("evolucionario/cladedate")` has functions to use a MonteCarlo approach to generate empirical calibration information from the fossil record.
 - `r pkg("RRphylo")` can be used to estimate variation and shift in the rate of phenotypic evolution with fossil data using phylogenetic ridge regression.
