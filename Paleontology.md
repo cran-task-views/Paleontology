@@ -43,6 +43,7 @@ Packages within the task view fall within one or more of the following broad cat
 ### Cleaning and/or manipulating paleontological data
 
 - `r pkg("palaeoverse")` has functionality to support data preparation and exploration for paleobiological analyses with a focus on improving code flow, reproducibility, and accessibility.
+- `r pkg("era")` provides a formal class for year-based time scales, represented by a numeric vector with an associated 'era'. Built-in era definitions include those commonly used in palaeontology and adjacent palaeosciences (e.g. SI-prefixed 'annus', Before Present).
 - `r pkg("CoordinateCleaner")` can perform automated flagging of common spatial and temporal errors in biological and paleontological collection data.
 - `r pkg("fossilbrush")` can perform automated detection and resolution of taxonomic and stratigraphic errors in fossil occurrence datasets.
 - `r pkg("rgplates")` can query the [GPlates](https://www.gplates.org/) desktop application and [web service API](https://gws.gplates.org/) to reconstruct past positions of geographic entities (e.g., plates, coastlines, and coordinates) based on user-selected rotation models. The `palaeorotate` function in `r pkg("palaeoverse")` can be used to query the GPlates API for fossil occurrences across multiple time intervals.
