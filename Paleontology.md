@@ -38,6 +38,7 @@ Packages within the task view fall within one or more of the following broad cat
 - `r pkg("sepkoski")` contains data on the stratigraphic ranges of fossil marine animal genera from Sepkoski's (2002) published compendium.
 - `r pkg("folio")` contains datasets for teaching quantitative approaches and modeling in archaeology and paleontology.
 - `r pkg("chronosphere")` can download time-stamped versions of various paleontological, paleoenvironmental, and paleoecological [databases](https://chronosphere.info/data/), including BioDeepTime (Smith et al. 2023), Triton (Fenton et al. 2021), the [Paleobiology Database](https://paleobiodb.org/#/), and the [Ancient Reef Traits Database](https://art.nat.fau.de/).
+- `r pkg("roadDB")` can query paleofaunal, botanical, archaeological, and anthropological remains from sites in Africa and Eurasia dating between 3,000,000 and 20,000 years BP, using the [ROCEEH Out of Africa Database (ROAD)](https://www.roceeh.uni-tuebingen.de/roadweb/smarty_road_simple_search.php).
 
 ### Cleaning and/or manipulating paleontological data
 
