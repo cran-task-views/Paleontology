@@ -3,7 +3,7 @@ name: Paleontology
 topic: Paleontology
 maintainer: William Gearty, Lewis A. Jones, Erin Dillon, Pedro Godoy, Harriet Drage, Christopher Dean, Bruna Farina
 email: willgearty@gmail.com
-version: 2025-1-5
+version: 2026-9-2
 source: https://github.com/cran-task-views/Paleontology/
 ---
 
@@ -70,7 +70,6 @@ Users may also find packages in the `r view("Environmetrics")` task view useful 
 - `r pkg("fossil")` has functions for estimating shared species/beta diversity, species area curves, and geographic distances and areas.
 - `r pkg("dispRity")` has functions for measuring morphological or ecological disparity (multidimensional space occupancy) through time.
 - `r github("HOPE-UIB-BIO/R-Fossilpol-package")` has functions for processing and standardizing global paleoecological pollen data.
-- `r pkg("Morphoscape")` implements adaptive landscape methods (first described by Polly et al. 2016) for the integration, analysis and visualization of biological trait data on a phenotypic morphospace.
 - `r pkg("RRphylo")` can be used to estimate variation and shift in the rate of phenotypic evolution with fossil data using phylogenetic ridge regression.
 - `r pkg("paleoTS")`, `r pkg("evoTS")`, and `r github("klvoje/adePEM")` have functions for fitting evolutionary models to morphological time series (see [Time series analysis](#time-series-analysis) for more information).
 
