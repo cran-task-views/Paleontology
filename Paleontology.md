@@ -33,13 +33,12 @@ Packages within the task view fall within one or more of the following broad cat
 
 - `r pkg("paleobioDB")` has functions to query, download, process, and visualize occurence and taxonomic data from the [Paleobiology Database](https://paleobiodb.org/#/) (PBDB).
 - `r pkg("neotoma2")` can query, download, and manipulate data from the [Neotoma Paleoecology Database](https://www.neotomadb.org/), which specializes in fossil data holdings at timescales covering the last several decades to the last several million years.
-- `r pkg("rgbif")` can query and download biological and paleontological occurrence data from the [Global Biodiversity Information Facility](https://www.gbif.org) (GBIF).
+- `r pkg("rgbif")` can query and download biological and paleontological occurrence data from the [Global Biodiversity Information Facility](https://www.gbif.org) (GBIF). `r pkg("occCite")` can be used to manage GBIF metadata to facilitate reporting and enhanced ability to repeat analyses.
 - `r pkg("ridigbio")` can query and download biological and paleontological specimen record data from [iDigBio](https://www.idigbio.org/).
 - `r pkg("sepkoski")` contains data on the stratigraphic ranges of fossil marine animal genera from Sepkoski's (2002) published compendium.
 - `r pkg("folio")` contains datasets for teaching quantitative approaches and modeling in archaeology and paleontology.
 - `r pkg("chronosphere")` can download time-stamped versions of various paleontological, paleoenvironmental, and paleoecological [databases](https://chronosphere.info/data/), including BioDeepTime (Smith et al. 2023), Triton (Fenton et al. 2021), the [Paleobiology Database](https://paleobiodb.org/#/), and the [Ancient Reef Traits Database](https://art.nat.fau.de/).
 - `r pkg("roadDB")` can query paleofaunal, botanical, archaeological, and anthropological remains from sites in Africa and Eurasia dating between 3,000,000 and 20,000 years BP, using the [ROCEEH Out of Africa Database (ROAD)](https://www.roceeh.uni-tuebingen.de/roadweb/smarty_road_simple_search.php).
-- `r pkg("occCite")` facilitates the gathering of biodiversity occurrence data from disparate sources aggregated by the [Global Biodiversity Information Facility](https://www.gbif.org) (GBIF) and the Botanical Information and Ecology Network (BIEN). Metadata is managed throughout the process to facilitate reporting and enhanced ability to repeat analyses.
 
 ### Cleaning and/or manipulating paleontological data
 
