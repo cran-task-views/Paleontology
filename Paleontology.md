@@ -33,7 +33,7 @@ Packages within the task view fall within one or more of the following broad cat
 
 - `r pkg("paleobioDB")` has functions to query, download, process, and visualize occurence and taxonomic data from the [Paleobiology Database](https://paleobiodb.org/#/) (PBDB).
 - `r pkg("neotoma2")` can query, download, and manipulate data from the [Neotoma Paleoecology Database](https://www.neotomadb.org/), which specializes in fossil data holdings at timescales covering the last several decades to the last several million years.
-- `r pkg("rgbif")` can query and download biological and paleontological occurrence data from the [Global Biodiversity Information Facility](https://www.gbif.org) (GBIF).
+- `r pkg("rgbif")` can query and download biological and paleontological occurrence data from the [Global Biodiversity Information Facility](https://www.gbif.org) (GBIF). `r pkg("occCite")` can be used to manage GBIF metadata to facilitate reporting and enhanced ability to repeat analyses.
 - `r pkg("ridigbio")` can query and download biological and paleontological specimen record data from [iDigBio](https://www.idigbio.org/).
 - `r pkg("sepkoski")` contains data on the stratigraphic ranges of fossil marine animal genera from Sepkoski's (2002) published compendium.
 - `r pkg("folio")` contains datasets for teaching quantitative approaches and modeling in archaeology and paleontology.
